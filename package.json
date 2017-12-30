@@ -10,6 +10,7 @@
   "scripts": {
     "compile": "babel src --out-dir lib",
     "lint": "jshint",
+    "dtslint": "dtslint types",
     "start": "npm run serve | npm run dev",
     "serve": "./node_modules/.bin/http-server -p 8080",
     "dev": "webpack-dev-server --progress --colors --port 8090",
@@ -32,6 +33,7 @@
     "chai": "^4.0.2",
     "coveralls": "^3.0.0",
     "debug": "^3.0.0",
+    "dtslint": "github:Microsoft/dtslint#production",
     "grunt": "1",
     "grunt-babel": "^7.0.0",
     "grunt-cli": "1",
@@ -48,6 +50,7 @@
     "mocha": "^4.0.0",
     "nodemon": "1",
     "react-dom": "^16.1.0",
+    "types-publisher": "Microsoft/types-publisher#production",
     "webpack": "^3.1.0",
     "webpack-dev-server": "2"
   },
